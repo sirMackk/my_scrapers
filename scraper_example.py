@@ -3,15 +3,14 @@ import lxml.html
 import csv
 
 #TODO:
-#- figure out using xpath instead of cssselect
-#- figure out using something else instead of requests
-#- work on better csv output &&|| on sqlite output
+#- figure out using xpath instead of cssselect - tested out, both xpath and cssselect seem good
+#- figure out using something else instead of requests - not really, seems the best option for now
+#- work on better csv output &&|| on sqlite output - first work on first two problems
 
 #url of file
 url = 'http://web.archive.org/web/20110514112442/http://unstats.un.org/unsd/demographic/products/socind/education.htm'
 #gets html
 page = requests.get(url)
-
 #lxml uses html to create something, figure this out more
 root = lxml.html.fromstring(page.content)
 main_data = []
