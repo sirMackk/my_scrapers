@@ -1,5 +1,9 @@
 ## A Sample Web Scraper
 
+### Update 09/2013
+
+I decided to make this into a repo containing all of the scrapers I've used at some point.
+
 ### What is all this about?
 
 These are web scraping code snippets which use the excellent lxml and Requests libraries. Some of them are cool, some of them are a simple introduction, but they all give data.
